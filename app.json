@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Helpfest",
+    "slug": "helpfest",
+    "version": "1.2.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#B4E4FF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.neytamandpiter.helpfest",
+      "buildNumber": "1.2.0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#B4E4FF"
+      },
+      "package": "com.neytamandpiter.helpfest",
+      "versionCode": 3
+    }
+  }
+}
